@@ -1,0 +1,11 @@
+# ignore some local env files 
+
+venv/
+
+**/course materials.zip
+
+**/.ipynb*
+
+**/__pycache__
+
+.DS_Store

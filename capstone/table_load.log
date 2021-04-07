@@ -1,0 +1,13 @@
+Done load table - 1.5897347927093506s:
+copy us_temperature from 's3://*************/capstone-i94-immigration/clean-data/USCitiesTemperaturesByMonth.parquet/' iam_role 'arn:aws:iam::*************:role/dwhRole' COMPUPDATE OFF STATUPDATE OFF FORMAT AS PARQUET;
+
+Done load table - 1.4406540393829346s:
+copy us_demographics from 's3://*************/capstone-i94-immigration/clean-data/us-cities-demographics.parquet/' iam_role 'arn:aws:iam::*************:role/dwhRole' COMPUPDATE OFF STATUPDATE OFF FORMAT AS PARQUET;
+
+Done load table - 1.3823096752166748s:
+copy airport from 's3://*************/capstone-i94-immigration/clean-data/airport-codes.parquet/' iam_role 'arn:aws:iam::*************:role/dwhRole' COMPUPDATE OFF STATUPDATE OFF FORMAT AS PARQUET;
+
+Done load table - 109.75465798377991s:
+copy i94_immigration from 's3://*************/capstone-i94-immigration/clean-data/i94_immigration_2016.parquet/' iam_role 'arn:aws:iam::*************:role/dwhRole' COMPUPDATE OFF STATUPDATE OFF FORMAT AS PARQUET;
+
+Done etl_table_load.py - 114.8372688293457s
